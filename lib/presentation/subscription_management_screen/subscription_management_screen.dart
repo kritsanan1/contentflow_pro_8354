@@ -6,18 +6,11 @@ import 'package:sizer/sizer.dart';
 import 'dart:html' as html;
 
 import '../../core/app_export.dart';
-import '../../theme/app_theme.dart';
-import '../../widgets/custom_icon_widget.dart';
 import './widgets/billing_history_card.dart';
 import './widgets/current_plan_card.dart';
 import './widgets/payment_method_card.dart';
 import './widgets/plan_comparison_card.dart';
 import './widgets/usage_analytics_card.dart';
-import 'widgets/billing_history_card.dart';
-import 'widgets/current_plan_card.dart';
-import 'widgets/payment_method_card.dart';
-import 'widgets/plan_comparison_card.dart';
-import 'widgets/usage_analytics_card.dart';
 
 class SubscriptionManagementScreen extends StatefulWidget {
   const SubscriptionManagementScreen({Key? key}) : super(key: key);
